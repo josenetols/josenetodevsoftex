@@ -1,0 +1,23 @@
+let fruta = prompt("Digite a fruta que deseja: ")
+switch (fruta){
+    case "laranja":
+        alert("O preço da laranja é :0,59");
+        break;
+    case "maça":
+        alert("O preço da maça é: R$9,99");
+        break;
+    case "banana":
+        alert("O preço da banana é: R$3,99");
+        break;
+    case "cereja":
+        alert("O preço da cereja é: 19,99");
+        break;
+    case "manga":
+        alert("O preço da manga é: 4,99")
+        break;
+    default:
+        alert("Fruta digitada nao encontrada");
+}
+
+
+

@@ -1,0 +1,14 @@
+let acoes = ["Escovar os Dentes","banhar", "vestir a minha roupa", "comer", "dirigir"];
+
+let primeiraTarefa = acoes[0];
+let segundaTarefa = acoes[1];
+let terceiraTarefa = acoes[2];
+let quartaTarefa = acoes[3];
+let quintaTarefa = acoes [4];
+
+console.log(acoes)
+
+
+
+console.log(`hoje eu irei ${primeiraTarefa}, depois ${segundaTarefa} logo em seguida vou ${terceiraTarefa}  minha roupa, 
+${quartaTarefa} o café da manhã e ${quintaTarefa} para o meu traballho`)

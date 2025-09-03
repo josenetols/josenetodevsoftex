@@ -1,0 +1,55 @@
+
+let a = "Abobrinha" 
+let theValue = "n" 
+for(i=0;i<a.length;i++){ 
+console.log(a[i]) 
+if(a[i]==theValue){ 
+break; 
+    } 
+}
+
+
+const alunos = [
+    {nome: 'Ana',satatus:'ativo'},
+    {nome: 'Bruno', satatus:'inativo'},
+    {nome:'Carlos',satatus:'ativo'},
+    {nome:'Daniel',satatus:'inativo'},
+    {nome:'Eduardo',satatus:'inativo'},
+    
+    ]
+   for(let i=0;i< alunos.length;i++){
+    
+    if(alunos[i].satatus=='ativo'){
+        console.log(alunos[i].nome)
+    }else{
+        continue;
+        }
+        console.log(i)
+   }
+let obj = {
+    nome:"Zé",
+    sobrenome:"Da Kombi",
+    profissão:"Médico",
+}
+    for(let i in obj){
+        console.log(`${i}:${obj[i]}`);
+    }
+
+const bilhetes = [12,45,67,89,23,55,9,77];
+let bilhetePremiado = 23;
+
+for(let i in bilhetes){
+    if(bilhetes[i] == bilhetePremiado){
+        console.log(`O numero é ${bilhetes[i]}`);
+        break;
+    }else{
+        console.log(`O numero ${bilhetes[i]} não é`);
+    
+    }
+}
+
+let a = "abobrinha"
+for(let i of a){
+    console.log(i);
+}
+

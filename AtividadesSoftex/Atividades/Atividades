@@ -1,0 +1,59 @@
+let fruta = prompt("Digite a fruta que deseja: ")
+switch (fruta){
+    case "laranja":
+        alert("O preço da laranja é :0,59");
+        break;
+    case "maça":
+        alert("O preço da maça é: R$9,99");
+        break;
+    case "banana":
+        alert("O preço da banana é: R$3,99");
+        break;
+    case "cereja":
+        alert("O preço da cereja é: 19,99");
+        break;
+    case "manga":
+        alert("O preço da manga é: 4,99")
+        break;
+    default:
+        alert("Fruta digitada nao encontrada");
+}
+
+
+var passo;
+for (passo = 0;passo<=5;passo = passo +2){
+    console.log("Ande um passo para o leste");
+}
+
+Crie um laço for que imprima todos os numeros de 1 a 100
+var  num;
+    for(num = 1;num<=100;num++){
+        console.log(num)
+       
+}
+
+crie um laço for que imprima todos os numeros pares entre 1 e 100
+let i;
+for(i = 2;i<=100;i = i+2){
+    console.log(i)
+}
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 == 0) {
+    console.log(i);
+  }
+}
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 != 0) {
+    console.log(i);
+  }
+}
+
+let nume = 11;
+while(nume>0){
+  nume --;
+  console.log(nume)
+
+}
+  
