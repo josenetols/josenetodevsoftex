@@ -1,0 +1,13 @@
+
+let passos = {
+  primeiro: { horario: "7 horas",
+    passo: "Escovar os destes"
+  },
+  segundo: "Tomar banho",
+  terceiro:"Vestir a roupa",
+  quarto: "Tomar café da manhã",
+  quinto:" Dirgir ao trabalho",
+}
+console.log(passos);
+console.log(passos.primeiro.horario)
+
